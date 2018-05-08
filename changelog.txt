@@ -1,0 +1,149 @@
+- Update 2.3 - 5 September 2017
+Added multi-currency
+Added description to settings
+Fixed issue with payment methods management
+Fixed untranslated words
+* edited files :
+App/Http/Controllers/Admin.php
+App/Http/Controllers/Frontend.php
+App/Http/Controllers/Api.php
+App/Functions.php
+resources/views/admin/settings.php
+resources/views/admin/header.php
+resources/views/admin/currency.php
+resources/views/header.php
+routes/admin.php
+routes/web.php
+- Update 2.2 - 28 August 2017
+Added sub-categories
+Fixed issue with radio field
+Fixed issue with extrafields management
+Fixed some isssues with products listing
+* edited files :
+App/Http/Controllers/Installer.php
+App/Http/Controllers/Frontend.php
+App/Http/Controllers/Admin.php
+App/Http/Controllers/Api.php
+resources/views/admin/fields.php
+resources/views/admin/categories.php
+resources/views/admin/products.php
+resources/views/products.php
+- Update 2.1 - 24 August 2017
+Added product variables
+Updated documentation
+Updated PayPal payment method
+* edited files :
+App/Http/Controllers/Installer.php
+App/Http/Controllers/Frontend.php
+App/Http/Controllers/Api.php
+App/Http/Controllers/Admin.php
+resources/views/admin/orders.php
+resources/views/admin/products.php
+resources/views/product.php
+resources/views/invoice.php
+themes/default/assets/style.css
+themes/default/assets/main.js
+- Update 2.0 - 31 July 2017
+Added customer registration
+Added cart label for mobile
+Fixed API auth issue
+Added cart items counter
+* edited files :
+App/Http/Controllers/Installer.php
+App/Http/Controllers/Frontend.php
+App/Http/Controllers/Api.php
+App/Http/Controllers/Admin.php
+App/Http/Middleware/Customer.php
+App/Http/Kernel.php
+routes/web.php
+routes/admin.php
+routes/api.php
+resources/views/admin/header.php
+resources/views/admin/customers.php
+resources/views/admin/settings.php
+resources/views/header.php
+resources/views/register.php
+resources/views/login.php
+resources/views/account.php
+resources/views/profile.php
+resources/views/invoice.php
+themes/default/assets/style.css
+themes/default/assets/main.js
+- Update 1.6 - 28 July 2017
+Added shipping cost
+Improved code and database structure
+Fixed a bug in the installer
+* edited files :
+App/Http/Controllers/Installer.php
+App/Http/Controllers/Admin.php
+App/Http/Controllers/Api.php
+routes/admin.php
+resources/views/admin/header.php
+resources/views/admin/shipping.php
+resources/views/admin/orders.php
+App/Plugins/bank/checkout.php
+- Update 1.5 - 27 July 2017
+Added standanrd cart
+Added floating cart option in settings
+Fixed a bug in the installer
+* edited files :
+App/Http/Controllers/Installer.php
+resources/views/header.php
+resources/views/cart.php
+routes/web.php
+themes/default/assets/style.css
+resources/views/admin/settings.php
+- Update 1.4 - 26 July 2017
+Added cash on delivery payment method
+Added bank transfer payment method
+Added payment method status
+Added instagram icon
+* edited files :
+App/Http/Controllers/Installer.php
+App/Http/Controllers/Admin.php
+App/Plugins/cash/checkout.php
+App/Plugins/cash/payments.php
+App/Plugins/bank/checkout.php
+App/Plugins/bank/payments.php
+themes/default/assets/stripe.js
+themes/default/assets/cash.js
+themes/default/assets/bank.js
+themes/default/assets/style.css
+themes/default/assets/fonts
+resources/views/admin/orders.php
+resources/views/admin/payment.php
+- Update 1.3 - 24 July 2017
+Digital products
+Fixed required fields in admin panel
+Fixed an error message when editing blocs
+Fixed bug in mailing function
+* edited files :
+App/Functions.php
+App/Http/Controllers/Admin.php
+App/Http/Controllers/Installer.php
+resources/views/admin/theme.php
+resources/views/admin/settings.php
+resources/views/admin/products.php
+- Update 1.2 - 22 July 2017
+Fixed content scroll issue
+Added form validation (mobile)
+Product zoom
+* edited files :
+themes/default/assets/main.js
+themes/default/assets/jquery.zoom.js
+App/Http/Controllers/Api.php
+resources/views/product.php
+- Update 1.1 - 20 July 2017
+Added more API functions ( blog posts - orders - reviews )
+Added API auth tokens
+Fixed minor bugs
+* edited files :
+routes/api.php
+App/Http/Controllers/Api.php
+App/Http/Middleware/ApiToken.php
+App/Http/Kernel.php
+App/Http/Controllers/Admin.php
+resources/views/admin/tokens.php
+resources/views/admin/index.php
+resources/views/admin/header.php
+- Initial release - 19 July 2017
